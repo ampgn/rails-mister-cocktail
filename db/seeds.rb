@@ -8,8 +8,24 @@
 puts 'Cleaning database...'
 Ingredient.destroy_all
 
-Ingredient.create(name: "lemon")
-Ingredient.create(name: "ice")
-Ingredient.create(name: "mint leaves")
+Ingredient.create(name: "fraise")
+Ingredient.create(name: "mangue")
+Ingredient.create(name: "ananas")
 
 puts 'Finished!'
+
+# puts 'Cleaning database...'
+# Cocktail.destroy_all
+
+# Cocktail.create(name: "Martini")
+# Cocktail.create(name: "Margarita")
+# Cocktail.create(name: "Old Fashioned")
+# Cocktail.create(name: "Rhum & coke")
+# Cocktail.create(name: "Gin tonic")
+# Cocktail.create(name: "Sidecar")
+# Cocktail.create(name: "Negronii")
+# Cocktail.create(name: "Cosmopolitan")
+# Cocktail.create(name: "Manhattan")
+# Cocktail.create(name: "Mojito")
+
+# puts 'Finished!'
